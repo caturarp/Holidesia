@@ -1,7 +1,8 @@
+/* Landing Page */
 .btn-primary {
   background: #387fa6;
   font-family: poppins;
-  font-size: 8;
+  font-size: 8px;
   font-weight: lighter;
 }
 .btn-primary:hover {
@@ -149,4 +150,108 @@
 }
 .page-footer .col-md-3 a:hover {
   color: #695c8f;
+}
+/* Product details Page */
+.navPage {
+  font-family: Poppins;
+}
+.bodyDetails .container {
+  font-family: Poppins;
+}
+.navPage p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #9b9b9b;
+  word-spacing: 20px;
+}
+.navPage a {
+  text-decoration: none;
+  color: #9b9b9b;
+}
+.navPage a:hover {
+  color: #726e85;
+}
+.navPage p .navThis {
+  word-spacing: normal;
+}
+.productDetails .col-8 {
+  padding-left: 30px;
+  padding-right: 15px;
+  flex-direction: column;
+  /* background: #ffb233; */
+}
+.productDetails .col.ml-3 {
+  /* background: #726e85; */
+  padding-left: 27px;
+  padding-top: 40px;
+  border-radius: 12px;
+}
+.productDetails .smlCollages {
+  /* background: #9d6d21; */
+  padding-left: 28px;
+}
+.productDetails .smlCollages .col {
+  padding-left: 0px;
+}
+.productDetails .smlCollages img {
+  width: 345px;
+  height: 221px;
+}
+.productDetails .imageCollages img {
+  width: 703px;
+  height: 483px;
+}
+.productDetails .productDescription h3 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #1e6d98;
+  margin-bottom: 0px;
+}
+p.pdLocation {
+  color: #1e6d98;
+  font-family: "Hind Madurai";
+}
+h3.productPrice {
+  margin-left: 5px;
+  margin-top: 10px;
+  color: #26be19 !important;
+}
+.productDetails .productDescription .productPrice span {
+  font-family: "Hind Madurai";
+  font-size: 16px;
+  font-weight: 400;
+  color: #8f8f8f;
+}
+.productDetails .productDescription .input.form-control {
+  font-family: "Hind Murai";
+}
+.productDetails .productDescription .emailForm .form-control {
+  font-size: 16px;
+  font-weight: 300;
+}
+p.pdNote {
+  color: #1e6d98;
+  font-family: "Hind Madurai";
+  font-weight: 400;
+}
+p.pdnoteDescription {
+  font-family: "Hind Madurai";
+  font-weight: 300;
+  color: #9b9b9b;
+}
+
+.productDescription .btn-primary {
+  background: #ffb233 !important;
+  border-radius: 7px;
+  /* font-family: "Hind Murai" !important; */
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: #525252;
+}
+.productDescription .tagHours h6 {
+  margin: 4px;
+}
+ul.d-flex.flex-row.mr-3 {
+  list-style-type: none;
 }

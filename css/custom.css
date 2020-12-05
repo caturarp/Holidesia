@@ -1,11 +1,11 @@
 /* Landing Page */
-.btn-primary {
+.btnExplore {
   background: #387fa6;
   font-family: poppins;
-  font-size: 8px;
-  font-weight: lighter;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
 }
-.btn-primary:hover {
+.btn-Explore:hover {
   background: #27688c;
 }
 .heroicon .container {
@@ -188,18 +188,23 @@
 }
 .productDetails .smlCollages {
   /* background: #9d6d21; */
-  padding-left: 28px;
-}
-.productDetails .smlCollages .col {
   padding-left: 0px;
 }
-.productDetails .smlCollages img {
-  width: 345px;
-  height: 221px;
+.productDetails .smlCollages .col {
+  padding: 0px;
 }
-.productDetails .imageCollages img {
-  width: 703px;
-  height: 483px;
+.productDetails .smlCollages img {
+  width: 100%;
+  /* height: 221px; */
+}
+.productDetails .imgCollages {
+  padding: 0px;
+}
+.productDetails .imgCollages img {
+  width: 100%;
+}
+.productDescription {
+  padding: 40px 25px 25px 25px;
 }
 .productDetails .productDescription h3 {
   font-weight: 500;
@@ -228,6 +233,8 @@ h3.productPrice {
 .productDetails .productDescription .emailForm .form-control {
   font-size: 16px;
   font-weight: 300;
+  background: #f6f6f6;
+  border: none;
 }
 p.pdNote {
   color: #1e6d98;
@@ -239,19 +246,43 @@ p.pdnoteDescription {
   font-weight: 300;
   color: #9b9b9b;
 }
+.datepicker {
+  background: #f6f6f6;
+  border: none;
+}
+.md-form.md-outline input[type="text"] {
+  border: 0px !important;
+}
 
 .productDescription .btn-primary {
   background: #ffb233 !important;
   border-radius: 7px;
-  /* font-family: "Hind Murai" !important; */
+  font-family: "Hind Madurai" !important;
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
   color: #525252;
 }
-.productDescription .tagHours h6 {
-  margin: 4px;
+.productDescription .btn-primary:hover {
+  box-shadow: none;
+  color: #525252;
+  background: #f2a830 !important;
+}
+.tagHour h6 {
+  font-family: "Hind Madurai";
+  font-weight: 400;
+  color: #676767;
+}
+.tagHour h5 {
+  font-weight: 600;
+  color: #3f3f3f;
 }
 ul.d-flex.flex-row.mr-3 {
   list-style-type: none;
+}
+.bodyDetails .tripDescription p {
+  font-size: 23px;
+  font-weight: 300;
+  color: #9b9b9b;
+  font-family: "Hind Madurai";
 }

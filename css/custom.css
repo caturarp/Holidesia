@@ -222,6 +222,9 @@ h3.productPrice {
   margin-top: 10px;
   color: #26be19 !important;
 }
+.tagHourMobile {
+  display: none;
+}
 .productDetails .productDescription .productPrice span {
   font-family: "Hind Madurai";
   font-size: 16px;
@@ -243,9 +246,16 @@ p.pdNote {
   font-weight: 400;
 }
 p.pdnoteDescription {
+  display: block;
   font-family: "Hind Madurai";
   font-weight: 300;
   color: #9b9b9b;
+}
+.pdnoteDesc .pdnoteDescriptionMobile {
+  display: block;
+}
+.pdnoteDescriptionWeb {
+  display: none;
 }
 .datepicker {
   background: #f6f6f6;
@@ -286,4 +296,68 @@ ul.d-flex.flex-row.mr-3 {
   font-weight: 300;
   color: #9b9b9b;
   font-family: "Hind Madurai";
+}
+@media (max-width: 767.98px) {
+  .productDescription {
+    border: none !important;
+    padding-left: 0px !important;
+  }
+  .productDescription h3 {
+    font-weight: bold !important;
+    font-size: 26px;
+  }
+  .productPrice {
+    margin-left: 0px !important;
+  }
+  .pdLocation {
+    display: none;
+  }
+  .tagHour {
+    display: none;
+  }
+  .tagHourMobile {
+    display: block;
+  }
+  .pdnoteDescriptionMobile {
+    display: none;
+  }
+  .pdnoteDescriptionWeb {
+    display: block;
+  }
+  div.col.d-flex.flex-row {
+    padding: 0px;
+  }
+  .tagHourMobile h5 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .tagHourMobile h6 {
+    font-size: 10px;
+  }
+  .tagHourMobile img {
+    width: 12px;
+  }
+  .pdnoteDescription p {
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .productDescription .btn-primary {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .form-control {
+    display: none;
+  }
+  .tripDescription p {
+    display: none;
+  }
+  .menu .fmore a {
+    font-size: 18px;
+  }
+  .page-footer .col-md-4 h5 {
+    padding-left: 0px;
+  }
+  .page-footer .col-md-4 p {
+    padding-left: 0px;
+  }
 }
